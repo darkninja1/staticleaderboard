@@ -18,6 +18,15 @@ body {
   color:var(--color);
   width:100vw;
   height:100vh;
+  overflow-x:hidden;
+  
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 #topnav {
   z-index:1;
